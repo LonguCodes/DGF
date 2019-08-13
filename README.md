@@ -294,7 +294,7 @@ Base class for authenticator, that user the Bearer token. You need to override t
 from django.conf import settings
 from jwt import decode
 from django.contrib.auth import get_user_model
-from DGF.builtins import BearerAuthenticator
+from DGF.builtins.authenticators import BearerAuthenticator
 
 class JWTAuthenticator(BearerAuthenticator):
     @classmethod
