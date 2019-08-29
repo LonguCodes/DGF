@@ -6,9 +6,15 @@ DGF is a framework for streamlining the writting process using django and graphe
 
 This package was initally created for personal project, so it may lack general features you need or have unnecesarry features that you don't need. If you find any of these feel free to leave a issue on [github](https://github.com/LonguCodes/DGF)
 
+# Instalation
+
+The package can be found on pypi
+
+'pip install django-graphene-framework'
+
 # Dependencies
 
-This package requires you to install _graphene_ and _django_
+This package requires you to install _graphene_ and _django_. If installing using pip the dependencies will be installed automatically
 
 `pip install graphene django`
 
